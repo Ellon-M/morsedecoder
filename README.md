@@ -5,7 +5,6 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[vet_clinic_database\] ](#-vet_clinic_database-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -47,7 +46,7 @@
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>]
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
@@ -68,7 +67,8 @@ Clone this repository to your desired folder:
 ### Usage
 
 To run the project, execute the following:
-```irb
+```
+  irb
   load './app.rb'
 ```
 

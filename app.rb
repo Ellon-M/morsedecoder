@@ -8,3 +8,26 @@ def decode_char(morse)
   
     morse_map[morse] || ''
   end
+def decode_word(code)
+  codes = code.split
+
+  res = ''
+  codes.each do |c|
+    decoded_char = decode_char(c)
+    res += decoded_char if decoded_char
+  end
+
+  res
+end
+
+def decode_message(code)
+  words = code.split('')
+
+  res = ''
+  words.each do |w|
+    decoded_word = decode_word(w)
+    res += "#{decoded_word} " if decoded_word
+  end
+
+  res.strip
+end
